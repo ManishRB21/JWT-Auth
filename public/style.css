@@ -39,6 +39,7 @@ nav li a{
   display: block;
   padding: 10px 16px;
   letter-spacing: 12px;
+  border-bottom: 2px solid transparent;
 }
 .head:hover:hover{
   border-bottom: 2px solid #444 ;

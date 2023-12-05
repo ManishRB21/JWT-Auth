@@ -35,5 +35,7 @@ app.get('/setcookies', (req,res)=>{
 })
 
 app.get('/readcookies', (req,res)=>{
-
+    const cookies = req.cookies
+    console.log(cookies.newUser)
+    res.json(cookies)
 })
