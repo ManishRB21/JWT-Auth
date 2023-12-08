@@ -36,13 +36,14 @@
                     }
                 });
                 const data = await res.json()
-                console.log(data)
+                console.log('sssssssssssss',data)
                 if (data.errors) {
                     emailError.innerHTML = data.errors.email
                     passwordError.innerHTML = data.errors.password
                 }
                 
                 if(data.user){
+                    console.log(data.user)
                     location.assign('/')
                 }
 
